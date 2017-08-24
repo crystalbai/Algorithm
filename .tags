@@ -1,0 +1,185 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BSTIterator	fb/Binary Search Tree Iterator.py	/^class BSTIterator(object):$/;"	c
+Codec	fb/Serialize and Deserialize Binary Tree.py	/^class Codec:$/;"	c
+Interval	fb/Merge Intervals.py	/^class Interval(object):$/;"	c
+Interval	fb/meeting rooms 2.py	/^class Interval(object):$/;"	c
+ListNode	RemoveNthNode.py	/^class ListNode(object):$/;"	c
+ListNode	fb/Merge K sorted list.py	/^class ListNode(object):$/;"	c
+Node1	fb/Merge K sorted list.py	/^Node1 = ListNode(1)$/;"	v
+Node2	fb/Merge K sorted list.py	/^Node2 = ListNode(10)$/;"	v
+Node3	fb/Merge K sorted list.py	/^Node3 = ListNode(2)$/;"	v
+Node4	fb/Merge K sorted list.py	/^Node4 = ListNode(3)$/;"	v
+Node5	fb/Merge K sorted list.py	/^Node5 = ListNode(6)$/;"	v
+Node6	fb/Merge K sorted list.py	/^Node6 = ListNode(6)$/;"	v
+OrderedDict	IntegerToRoman.py	/^from collections import OrderedDict$/;"	i
+PriorityQueue	fb/Merge K sorted list.py	/^from Queue import PriorityQueue$/;"	i
+Solution	3sumClosest.py	/^class Solution(object):$/;"	c
+Solution	IntegerToRoman.py	/^class Solution(object):$/;"	c
+Solution	Letter Combinations of a Phone Number.py	/^class Solution(object):$/;"	c
+Solution	RemoveNthNode.py	/^class Solution(object):$/;"	c
+Solution	continerWithMostWater.py	/^class Solution(object):$/;"	c
+Solution	fb/3sum.py	/^class Solution(object):$/;"	c
+Solution	fb/Best Time to Buy and Sell Stock.py	/^class Solution(object):$/;"	c
+Solution	fb/Binary Tree Path.py	/^class Solution(object):$/;"	c
+Solution	fb/Binary Tree Vertical Order Traversal.py	/^class Solution(object):$/;"	c
+Solution	fb/DecodeWays.py	/^class Solution(object):$/;"	c
+Solution	fb/Inorder Successor in BST.py	/^class Solution(object):$/;"	c
+Solution	fb/Merge Intervals.py	/^class Solution(object):$/;"	c
+Solution	fb/Merge K sorted list.py	/^class Solution(object):$/;"	c
+Solution	fb/Number of Islands.py	/^class Solution(object):$/;"	c
+Solution	fb/NumberToWords.py	/^class Solution(object):$/;"	c
+Solution	fb/One Edit Distance.py	/^class Solution(object):$/;"	c
+Solution	fb/Regular Expression Matching.py	/^class Solution(object):$/;"	c
+Solution	fb/Remove Invalid Parentheses.py	/^class Solution(object):$/;"	c
+Solution	fb/Sparse Matrix Multiplication.py	/^class Solution(object):$/;"	c
+Solution	fb/Valid Palindrome.py	/^class Solution(object):$/;"	c
+Solution	fb/Word break.py	/^class Solution(object):$/;"	c
+Solution	fb/addBinary.py	/^class Solution(object):$/;"	c
+Solution	fb/find the celebrity.py	/^class Solution(object):$/;"	c
+Solution	fb/first bad version.py	/^class Solution(object):$/;"	c
+Solution	fb/max_sum_sub_array.py	/^class Solution(object):$/;"	c
+Solution	fb/meeting rooms 2.py	/^class Solution(object):$/;"	c
+Solution	fb/move-zeros.py	/^class Solution(object):$/;"	c
+Solution	stringToInt.py	/^class Solution(object):$/;"	c
+TreeNode	fb/Binary Tree Path.py	/^class TreeNode(object):$/;"	c
+TreeNode	fb/Binary Tree Vertical Order Traversal.py	/^class TreeNode(object):$/;"	c
+TreeNode	fb/Inorder Successor in BST.py	/^class TreeNode(object):$/;"	c
+TreeNode	fb/Serialize and Deserialize Binary Tree.py	/^class TreeNode(object):$/;"	c
+TrieNode	fb/Add and Search Word .py	/^class TrieNode(object):$/;"	c
+WordDictionary	fb/Add and Search Word .py	/^class WordDictionary(object):$/;"	c
+__init__	RemoveNthNode.py	/^    def __init__(self, x):$/;"	m	class:ListNode
+__init__	fb/Add and Search Word .py	/^    def __init__(self):$/;"	m	class:TrieNode
+__init__	fb/Add and Search Word .py	/^    def __init__(self):$/;"	m	class:WordDictionary
+__init__	fb/Binary Search Tree Iterator.py	/^    def __init__(self, root):$/;"	m	class:BSTIterator
+__init__	fb/Binary Tree Path.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+__init__	fb/Binary Tree Vertical Order Traversal.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+__init__	fb/Inorder Successor in BST.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+__init__	fb/Merge Intervals.py	/^    def __init__(self, s=0, e=0):$/;"	m	class:Interval
+__init__	fb/Merge K sorted list.py	/^    def __init__(self, x):$/;"	m	class:ListNode
+__init__	fb/Serialize and Deserialize Binary Tree.py	/^    def __init__(self, x):$/;"	m	class:TreeNode
+__init__	fb/meeting rooms 2.py	/^    def __init__(self, s=0, e=0):$/;"	m	class:Interval
+addBinary	fb/addBinary.py	/^    def addBinary(self, a, b):$/;"	m	class:Solution
+addWord	fb/Add and Search Word .py	/^    def addWord(self, word):$/;"	m	class:WordDictionary
+ans	fb/Binary Tree Vertical Order Traversal.py	/^ans = sol.verticalOrder(root)$/;"	v
+ans	fb/Sparse Matrix Multiplication.py	/^ans = sol.multiply([[1,0,0],[-1,0,3]], [[7,0,0],[0,0,0],[0,0,1]])$/;"	v
+ans	fb/addBinary.py	/^ans = sol.addBinary("101111", '11')$/;"	v
+ans_str	fb/Serialize and Deserialize Binary Tree.py	/^ans_str = codec.serialize(res)$/;"	v
+binaryTreePaths	fb/Binary Tree Path.py	/^    def binaryTreePaths(self, root):$/;"	m	class:Solution
+codec	fb/Serialize and Deserialize Binary Tree.py	/^codec = Codec()$/;"	v
+deserialize	fb/Serialize and Deserialize Binary Tree.py	/^    def deserialize(self, data):$/;"	m	class:Codec
+dfs	fb/Add and Search Word .py	/^    def dfs(self, cur, word):$/;"	m	class:WordDictionary
+dfs	fb/Binary Tree Path.py	/^    def dfs(self, res, tmp_str, node):$/;"	m	class:Solution
+dfs	fb/Number of Islands.py	/^    def dfs(self, grid, i,j):$/;"	m	class:Solution
+findCelebrity	fb/find the celebrity.py	/^    def findCelebrity(self, n):$/;"	m	class:Solution
+firstBadVersion	fb/first bad version.py	/^    def firstBadVersion(self, n):$/;"	m	class:Solution
+grid	fb/Number of Islands.py	/^grid = [list("111"),list("010"),list("111")]$/;"	v
+hasNext	fb/Binary Search Tree Iterator.py	/^    def hasNext(self):$/;"	m	class:BSTIterator
+head	RemoveNthNode.py	/^head = tmp$/;"	v
+inorderSuccessor	fb/Inorder Successor in BST.py	/^    def inorderSuccessor(self, root, p):$/;"	m	class:Solution
+intToRoman	IntegerToRoman.py	/^    def intToRoman(self, num):$/;"	m	class:Solution
+intervals	fb/Merge Intervals.py	/^intervals = []$/;"	v
+isBadVersion	fb/first bad version.py	/^def isBadVersion(version):$/;"	f
+isMatch	fb/Regular Expression Matching.py	/^    def isMatch(self, s, p):$/;"	m	class:Solution
+isMatch_DFS	fb/Regular Expression Matching.py	/^    def isMatch_DFS(self, s, p):$/;"	m	class:Solution
+isOneEditDistance	fb/One Edit Distance.py	/^    def isOneEditDistance(self, s, t):$/;"	m	class:Solution
+isPalindrome	fb/Valid Palindrome.py	/^    def isPalindrome(self, s):$/;"	m	class:Solution
+knows	fb/find the celebrity.py	/^def knows(a, b):$/;"	f
+l	3sumClosest.py	/^l = [0,2,1,-3]$/;"	v
+l	continerWithMostWater.py	/^l = [1,1]$/;"	v
+l	fb/Best Time to Buy and Sell Stock.py	/^l = [7, 1, 5, 3, 6, 4]$/;"	v
+l	fb/Merge K sorted list.py	/^l = [Node3, Node4,Node5, Node6]$/;"	v
+l	fb/meeting rooms 2.py	/^l = []$/;"	v
+letterCombinations	Letter Combinations of a Phone Number.py	/^    def letterCombinations(self, digits):$/;"	m	class:Solution
+maxArea	continerWithMostWater.py	/^    def maxArea(self, height):$/;"	m	class:Solution
+maxProfit	fb/Best Time to Buy and Sell Stock.py	/^    def maxProfit(self, prices):$/;"	m	class:Solution
+maxSubArrayLen	fb/max_sum_sub_array.py	/^    def maxSubArrayLen(self, nums, k):$/;"	m	class:Solution
+merge	fb/Merge Intervals.py	/^    def merge(self, intervals):$/;"	m	class:Solution
+merge	fb/Merge K sorted list.py	/^    def merge(self, list_1, list_2):$/;"	m	class:Solution
+mergeKLists	fb/Merge K sorted list.py	/^    def mergeKLists(self, lists):$/;"	m	class:Solution
+mergeKLists_basic	fb/Merge K sorted list.py	/^    def mergeKLists_basic(self, lists):$/;"	m	class:Solution
+minMeetingRooms	fb/meeting rooms 2.py	/^    def minMeetingRooms(self, intervals):$/;"	m	class:Solution
+moveZeroes	fb/move-zeros.py	/^    def moveZeroes(self, nums):$/;"	m	class:Solution
+multiply	fb/Sparse Matrix Multiplication.py	/^    def multiply(self, A, B):$/;"	m	class:Solution
+myAtoi	stringToInt.py	/^    def myAtoi(self, str):$/;"	m	class:Solution
+my_dictionary	IntegerToRoman.py	/^my_dictionary=OrderedDict()$/;"	v
+next	fb/Binary Search Tree Iterator.py	/^    def next(self):$/;"	m	class:BSTIterator
+np	fb/Number of Islands.py	/^import numpy as np$/;"	i
+np	fb/Regular Expression Matching.py	/^import numpy as np$/;"	i
+np	fb/Sparse Matrix Multiplication.py	/^import numpy as np$/;"	i
+np	fb/move-zeros.py	/^import numpy as np$/;"	i
+numDecodings	fb/DecodeWays.py	/^    def numDecodings(self, s):$/;"	m	class:Solution
+numIslands	fb/Number of Islands.py	/^    def numIslands(self, grid):$/;"	m	class:Solution
+numberToWords	fb/NumberToWords.py	/^    def numberToWords(self, num):$/;"	m	class:Solution
+nums	fb/3sum.py	/^nums= [-1,0,1,2,-1,-4]$/;"	v
+nums	fb/move-zeros.py	/^nums = [0,0,1]$/;"	v
+obj	fb/Add and Search Word .py	/^obj = WordDictionary()$/;"	v
+param_2	fb/Add and Search Word .py	/^param_2 = obj.search('.ad')$/;"	v
+removeInvalidParentheses	fb/Remove Invalid Parentheses.py	/^    def removeInvalidParentheses(self, s):$/;"	m	class:Solution
+removeNthFromEnd	RemoveNthNode.py	/^    def removeNthFromEnd(self, head, n):$/;"	m	class:Solution
+res	3sumClosest.py	/^res = sol.threeSumClosest(l, 1)$/;"	v
+res	IntegerToRoman.py	/^res = sol.intToRoman(267)$/;"	v
+res	Letter Combinations of a Phone Number.py	/^res = sol.letterCombinations('23')$/;"	v
+res	continerWithMostWater.py	/^res = sol.maxArea(l)$/;"	v
+res	fb/3sum.py	/^res = sol.threeSum(nums)$/;"	v
+res	fb/Binary Tree Path.py	/^res = sol.binaryTreePaths(root)$/;"	v
+res	fb/DecodeWays.py	/^res = sol.numDecodings('')$/;"	v
+res	fb/Inorder Successor in BST.py	/^res = sol.inorderSuccessor(root, TreeNode(5))$/;"	v
+res	fb/Merge Intervals.py	/^res = sol.merge([])$/;"	v
+res	fb/Merge K sorted list.py	/^res = sol.mergeKLists(l)$/;"	v
+res	fb/Number of Islands.py	/^res = sol.numIslands(grid)$/;"	v
+res	fb/NumberToWords.py	/^res = sol.numberToWords(12345)$/;"	v
+res	fb/One Edit Distance.py	/^res = sol.isOneEditDistance('','s')$/;"	v
+res	fb/Regular Expression Matching.py	/^res = sol.isMatch("aab", "b.*")$/;"	v
+res	fb/Serialize and Deserialize Binary Tree.py	/^res = codec.deserialize("1,2,3,null,null,4,5")$/;"	v
+res	fb/Word break.py	/^res = sol.wordBreak(s, w)$/;"	v
+res	fb/find the celebrity.py	/^res = sol.findCelebrity(10)$/;"	v
+res	fb/first bad version.py	/^res = sol.firstBadVersion(9)$/;"	v
+res	fb/max_sum_sub_array.py	/^res = sol.maxSubArrayLen([1, -1, 5, -2, 3],3)$/;"	v
+res	fb/meeting rooms 2.py	/^res = sol.minMeetingRooms(l)$/;"	v
+res	stringToInt.py	/^res = sol.myAtoi('-12')$/;"	v
+root	fb/Binary Tree Path.py	/^root = TreeNode(1)$/;"	v
+root	fb/Binary Tree Vertical Order Traversal.py	/^root = TreeNode(3)$/;"	v
+root	fb/Inorder Successor in BST.py	/^root = TreeNode(7)$/;"	v
+s	fb/Word break.py	/^s = 'cars'$/;"	v
+search	fb/Add and Search Word .py	/^    def search(self, word):$/;"	m	class:WordDictionary
+searchBad	fb/first bad version.py	/^    def searchBad(self,s,e):$/;"	m	class:Solution
+serialize	fb/Serialize and Deserialize Binary Tree.py	/^    def serialize(self, root):$/;"	m	class:Codec
+sol	3sumClosest.py	/^sol = Solution()$/;"	v
+sol	IntegerToRoman.py	/^sol = Solution()$/;"	v
+sol	Letter Combinations of a Phone Number.py	/^sol = Solution()$/;"	v
+sol	RemoveNthNode.py	/^sol = Solution()$/;"	v
+sol	continerWithMostWater.py	/^sol = Solution()$/;"	v
+sol	fb/3sum.py	/^sol = Solution()$/;"	v
+sol	fb/Best Time to Buy and Sell Stock.py	/^sol = Solution()$/;"	v
+sol	fb/Binary Tree Path.py	/^sol = Solution()$/;"	v
+sol	fb/Binary Tree Vertical Order Traversal.py	/^sol = Solution()$/;"	v
+sol	fb/DecodeWays.py	/^sol = Solution()$/;"	v
+sol	fb/Inorder Successor in BST.py	/^sol = Solution()$/;"	v
+sol	fb/Merge Intervals.py	/^sol =Solution()$/;"	v
+sol	fb/Merge K sorted list.py	/^sol = Solution()$/;"	v
+sol	fb/Number of Islands.py	/^sol = Solution()$/;"	v
+sol	fb/NumberToWords.py	/^sol = Solution()$/;"	v
+sol	fb/One Edit Distance.py	/^sol = Solution()$/;"	v
+sol	fb/Regular Expression Matching.py	/^sol = Solution()$/;"	v
+sol	fb/Sparse Matrix Multiplication.py	/^sol = Solution()$/;"	v
+sol	fb/Valid Palindrome.py	/^sol = Solution()$/;"	v
+sol	fb/Word break.py	/^sol = Solution()$/;"	v
+sol	fb/addBinary.py	/^sol = Solution()$/;"	v
+sol	fb/find the celebrity.py	/^sol = Solution()$/;"	v
+sol	fb/first bad version.py	/^sol = Solution()$/;"	v
+sol	fb/max_sum_sub_array.py	/^sol = Solution()$/;"	v
+sol	fb/meeting rooms 2.py	/^sol = Solution()$/;"	v
+sol	fb/move-zeros.py	/^sol = Solution()$/;"	v
+sol	stringToInt.py	/^sol = Solution()$/;"	v
+threeSum	fb/3sum.py	/^    def threeSum(self, nums):$/;"	m	class:Solution
+threeSumClosest	3sumClosest.py	/^    def threeSumClosest(self, nums, target):$/;"	m	class:Solution
+tmp	RemoveNthNode.py	/^tmp = ListNode(1)$/;"	v
+tmp	RemoveNthNode.py	/^tmp = tmp.next$/;"	v
+verticalOrder	fb/Binary Tree Vertical Order Traversal.py	/^    def verticalOrder(selfself, root):$/;"	m	class:Solution
+w	fb/Word break.py	/^w = ['car','car', 'rs']$/;"	v
+wordBreak	fb/Word break.py	/^    def wordBreak(self, s, wordDict):$/;"	m	class:Solution

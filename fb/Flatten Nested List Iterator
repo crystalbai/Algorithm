@@ -1,0 +1,103 @@
+# """
+# This is the interface that allows for creating nested lists.
+# You should not implement it, or speculate about its implementation
+# """
+class NestedInteger(object):
+
+   def __init__(self, list):
+        self.list = list
+
+   def isInteger(self):
+       """
+       @return True if this NestedInteger holds a single integer, rather than a nested list.
+       :rtype bool
+       """
+       return isinstance( self.list, int )
+
+
+   def getInteger(self):
+       """
+       @return the single integer that this NestedInteger holds, if it holds a single integer
+       Return None if this NestedInteger holds a nested list
+       :rtype int
+       """
+       return self.list
+
+   def getList(self):
+       """
+       @return the nested list that this NestedInteger holds, if it holds a nested list
+       Return None if this NestedInteger holds a single integer
+       :rtype List[NestedInteger]
+       """
+       return self.list
+
+class NestedIterator(object):
+    def __init__(self, nestedList):
+        """
+        Initialize your data structure here.
+        :type nestedList: List[NestedInteger]
+        """
+        self.stack = []
+        self.curlist = nestedList
+        self.curInd = 0
+
+
+    def next(self):
+        """
+        :rtype: int
+        """
+
+
+        tmp_nest = self.curlist[self.curInd]
+        while not tmp_nest.isInteger():
+            self.stack.append((self.curlist, self.curInd))
+            self.curlist = tmp_nest.getList()
+            self.curInd = 0
+            tmp_nest = self.curlist[self.curInd]
+        res = tmp_nest.getInteger()
+
+        while True:
+            self.curInd += 1
+            while self.curInd >= len(self.curlist) and len(self.stack) > 0:
+                self.curlist, self.curInd = self.stack.pop()
+                self.curInd += 1
+            if self.curInd >= len(self.curlist) and len(self.stack) == 0:
+                return ""
+            tmp_nest = self.curlist[self.curInd]
+            if tmp_nest.isInteger() or len(tmp_nest.getList()) > 0:
+                break
+        return res
+
+
+
+    def hasNext(self):
+        """
+        :rtype: bool
+        """
+
+        tmp_ind = len(self.stack) - 1
+        tmp_curInd, tmp_curlist = self.curInd, self.curlist
+
+        while True:
+            while tmp_curInd >= len(tmp_curlist) and tmp_ind >= 0:
+                tmp_curlist, tmp_curInd = self.stack[tmp_ind]
+                tmp_curInd += 1
+                tmp_ind -=1
+            if (tmp_curInd >= len(tmp_curlist) and tmp_ind < 0):
+                return False
+            tmp_nest = tmp_curlist[tmp_curInd]
+            if tmp_nest.isInteger() or len(tmp_nest.getList()) > 0:
+                break
+            tmp_curInd += 1
+
+        return True
+
+        # Your NestedIterator object will be instantiated and called as such:
+        # i, v = NestedIterator(nestedList), []
+        # while i.hasNext(): v.append(i.next())
+
+# nestedList = [NestedInteger([NestedInteger(1), NestedInteger(1)]), NestedInteger(2), NestedInteger([]), NestedInteger([NestedInteger(1), NestedInteger(1)])]
+# nestedList = [NestedInteger([NestedInteger(1)]), NestedInteger([])]
+nestedList = [NestedInteger([NestedInteger([NestedInteger([])])]), NestedInteger([])]
+i = NestedIterator(nestedList)
+while i.hasNext(): print i.next()
