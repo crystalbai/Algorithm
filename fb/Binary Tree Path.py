@@ -34,10 +34,12 @@ class Solution(object):
             tmp_str = tmp_str +'->'+ str(node.val)
             res.append(tmp_str)
         if node.left !=None:
-
             self.dfs(res, tmp_str +'->'+ str(node.val), node.left)
         if node.right !=None:
             self.dfs(res, tmp_str +'->'+ str(node.val), node.right)
+
+
+
 
 sol = Solution()
 root = TreeNode(1)

@@ -36,8 +36,8 @@ class Solution(object):
 
 
 sol = Solution()
-s = 'cars'
-w = ['car','car', 'rs']
+s = 'carcars'
+w = ['car', 's']
 res = sol.wordBreak(s, w)
 print res
 

@@ -11,7 +11,7 @@ class Solution(object):
         #use map to remember the parent of each node and trace back
         #when we found all the node, we only need to iterate until we found all the node:
         parent = {root:None}
-        stack = [root] #dfs the tree
+        stack = [root] #bfs the tree
         while p not in parent or q not in parent:
             node = stack.pop()
             if node.left != None:

@@ -15,7 +15,7 @@ class Solution(object):
             timelist.append((inter.start, 1))
             timelist.append((inter.end, -1))
         rooms = 0 ;maxrooms = 0
-        timelist = sorted(timelist, key = lambda x: x[0])
+        timelist = sorted(timelist, key = lambda x: (x[0],x[1]))
         for i in timelist:
             rooms = rooms + i[1]
             maxrooms = max(maxrooms, rooms)
@@ -23,8 +23,8 @@ class Solution(object):
 
 sol = Solution()
 l = []
-l.append(Interval(0,30))
-l.append(Interval(5,10))
-l.append(Interval(15,20))
+l.append(Interval(13,15))
+l.append(Interval(1,13))
+# l.append(Interval(15,20))
 res = sol.minMeetingRooms(l)
 print res

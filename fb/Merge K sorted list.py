@@ -60,6 +60,6 @@ Node3 = ListNode(2)
 Node4 = ListNode(3)
 Node5 = ListNode(6)
 Node6 = ListNode(6)
-l = [Node3, Node4,Node5, Node6]
+l = [Node5, Node3,Node4, Node6]
 res = sol.mergeKLists(l)
 print res
